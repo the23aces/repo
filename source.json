@@ -1,7 +1,7 @@
 {
-  "name": "Aces IPA Repo",
+  "name": "23aces IPA Repo",
   "identifier": "io.github.the23aces.repo",
-  "subtitle": "All ipa files i use/will use",
+  "subtitle": "IPAs from the23aces/ipas releases",
   "description": "Every published IPA mod listed separately for Feather, including mods sharing the same bundle ID and version.",
   "sourceURL": "https://raw.githubusercontent.com/the23aces/repo/main/source.json",
   "iconURL": "https://raw.githubusercontent.com/the23aces/repo/main/icon.png",
@@ -12,7 +12,7 @@
       "bundleIdentifier": "com.spotify.client",
       "developerName": "Published by the23aces",
       "localizedDescription": "Mod: spoti.pw-0.51.0-9.1.90-beta.1 (release 6.7)\nFile: spoti.pw-0.51.0-9.1.90-beta.1.ipa\nRelease: 6.7\n\nspoti.pw-0.51.0-9.1.90-beta.1.ipa\nRelease: 6.7\n\nerg",
-      "iconURL": "https://avatars.githubusercontent.com/u/106442156?v=4",
+      "iconURL": "https://raw.githubusercontent.com/the23aces/repo/main/icon.png",
       "versions": [
         {
           "version": "9.1.90",
@@ -77,7 +77,7 @@
       "bundleIdentifier": "com.spotify.client",
       "developerName": "Published by the23aces",
       "localizedDescription": "Mod: spoti.pw-0.50.0-9.1.78 (release 6.7)\nFile: spoti.pw-0.50.0-9.1.78.ipa\nRelease: 6.7\n\nspoti.pw-0.50.0-9.1.78.ipa\nRelease: 6.7\n\nerg",
-      "iconURL": "https://avatars.githubusercontent.com/u/106442156?v=4",
+      "iconURL": "https://raw.githubusercontent.com/the23aces/repo/main/icon.png",
       "versions": [
         {
           "version": "9.1.78",
@@ -142,7 +142,7 @@
       "bundleIdentifier": "com.spotify.client",
       "developerName": "Published by the23aces",
       "localizedDescription": "Mod: spoti.pw + EeveeSpotify (spoti.pw first)\nFile: spoti.pw-0.23.0-EeveeSpotify-6.6.8-9.1.86.ipa\nRelease: 1.2\n\nspoti.pw-0.23.0-EeveeSpotify-6.6.8-9.1.86.ipa\nRelease: 1.2\n\nspoti.pw+eevee (spoti.pw first)",
-      "iconURL": "https://avatars.githubusercontent.com/u/106442156?v=4",
+      "iconURL": "https://raw.githubusercontent.com/the23aces/repo/main/icon.png",
       "versions": [
         {
           "version": "9.1.86",
@@ -208,7 +208,7 @@
       "bundleIdentifier": "com.spotify.client",
       "developerName": "Published by the23aces",
       "localizedDescription": "Mod: Eevee + spoti.pw (release 1.1)\nFile: eevee-spoti.pw-0.23.0-beta.ipa\nRelease: 1.1\n\neevee-spoti.pw-0.23.0-beta.ipa\nRelease: 1.1\n\nhopefully eevee+spoti.pw",
-      "iconURL": "https://avatars.githubusercontent.com/u/106442156?v=4",
+      "iconURL": "https://raw.githubusercontent.com/the23aces/repo/main/icon.png",
       "versions": [
         {
           "version": "9.1.86",
@@ -274,7 +274,7 @@
       "bundleIdentifier": "com.spotify.client",
       "developerName": "Published by the23aces",
       "localizedDescription": "Mod: Eevee\nFile: eevee.ipa\nRelease: 1.0\n\neevee.ipa\nRelease: 1.0\n\n",
-      "iconURL": "https://avatars.githubusercontent.com/u/106442156?v=4",
+      "iconURL": "https://raw.githubusercontent.com/the23aces/repo/main/icon.png",
       "versions": [
         {
           "version": "9.1.86",
@@ -340,7 +340,7 @@
       "bundleIdentifier": "com.spotify.client",
       "developerName": "Published by the23aces",
       "localizedDescription": "Mod: spoti.pw 0.23.0 beta\nFile: spoti.pw-0.23.0-beta.ipa\nRelease: 1.0\n\nspoti.pw-0.23.0-beta.ipa\nRelease: 1.0\n\n",
-      "iconURL": "https://avatars.githubusercontent.com/u/106442156?v=4",
+      "iconURL": "https://raw.githubusercontent.com/the23aces/repo/main/icon.png",
       "versions": [
         {
           "version": "9.1.86",

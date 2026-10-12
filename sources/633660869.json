@@ -4,7 +4,7 @@
   "subtitle": "IPAs from the23aces/ipas releases",
   "description": "Published IPA assets from GitHub Releases. Refreshed by GitHub Actions.",
   "sourceURL": "https://raw.githubusercontent.com/the23aces/repo/main/sources/633660869.json",
-  "iconURL": "https://avatars.githubusercontent.com/u/106442156?v=4",
+  "iconURL": "https://raw.githubusercontent.com/the23aces/repo/main/icon.png",
   "website": "https://github.com/the23aces/ipas/releases",
   "apps": [
     {
@@ -12,7 +12,7 @@
       "bundleIdentifier": "com.spotify.client",
       "developerName": "Published by the23aces",
       "localizedDescription": "Mod: spoti.pw-0.51.0-9.1.90-beta.1 (release 6.7)\nFile: spoti.pw-0.51.0-9.1.90-beta.1.ipa\nRelease: 6.7\n\nspoti.pw-0.51.0-9.1.90-beta.1.ipa\nRelease: 6.7\n\nerg",
-      "iconURL": "https://avatars.githubusercontent.com/u/106442156?v=4",
+      "iconURL": "https://raw.githubusercontent.com/the23aces/repo/main/icon.png",
       "versions": [
         {
           "version": "9.1.90",
