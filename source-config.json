@@ -1,0 +1,11 @@
+{
+  "releasesRepository": "the23aces/ipas",
+  "sourceRepository": "the23aces/repo",
+  "branch": "main",
+  "name": "23aces IPA Repo",
+  "identifier": "io.github.the23aces.repo",
+  "subtitle": "IPAs from the23aces/ipas releases",
+  "iconURL": "https://avatars.githubusercontent.com/u/106442156?v=4",
+  "includePrereleases": false,
+  "apps": {}
+}
