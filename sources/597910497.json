@@ -8,10 +8,10 @@
   "website": "https://github.com/the23aces/ipas/releases",
   "apps": [
     {
-      "name": "Spotify",
+      "name": "spoti.pw + EeveeSpotify (spoti.pw first)",
       "bundleIdentifier": "com.spotify.client",
       "developerName": "Published by the23aces",
-      "localizedDescription": "Spotify from the23aces/ipas releases.\nLatest file: spoti.pw-0.23.0-EeveeSpotify-6.6.8-9.1.86.ipa",
+      "localizedDescription": "Mod: spoti.pw + EeveeSpotify (spoti.pw first)\nFile: spoti.pw-0.23.0-EeveeSpotify-6.6.8-9.1.86.ipa\nRelease: 1.2\n\nspoti.pw-0.23.0-EeveeSpotify-6.6.8-9.1.86.ipa\nRelease: 1.2\n\nspoti.pw+eevee (spoti.pw first)",
       "iconURL": "https://avatars.githubusercontent.com/u/106442156?v=4",
       "versions": [
         {
@@ -70,7 +70,8 @@
       "versionDate": "2026-09-29T10:18:08Z",
       "versionDescription": "spoti.pw-0.23.0-EeveeSpotify-6.6.8-9.1.86.ipa\nRelease: 1.2\n\nspoti.pw+eevee (spoti.pw first)",
       "downloadURL": "https://github.com/the23aces/ipas/releases/download/1.2/spoti.pw-0.23.0-EeveeSpotify-6.6.8-9.1.86.ipa",
-      "size": 148958148
+      "size": 148958148,
+      "subtitle": "spoti.pw-0.23.0-EeveeSpotify-6.6.8-9.1.86.ipa"
     }
   ],
   "news": []

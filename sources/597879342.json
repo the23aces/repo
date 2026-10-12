@@ -8,10 +8,10 @@
   "website": "https://github.com/the23aces/ipas/releases",
   "apps": [
     {
-      "name": "Spotify",
+      "name": "Eevee",
       "bundleIdentifier": "com.spotify.client",
       "developerName": "Published by the23aces",
-      "localizedDescription": "Spotify from the23aces/ipas releases.\nLatest file: eevee.ipa",
+      "localizedDescription": "Mod: Eevee\nFile: eevee.ipa\nRelease: 1.0\n\neevee.ipa\nRelease: 1.0\n\n",
       "iconURL": "https://avatars.githubusercontent.com/u/106442156?v=4",
       "versions": [
         {
@@ -70,7 +70,8 @@
       "versionDate": "2026-09-29T10:03:29Z",
       "versionDescription": "eevee.ipa\nRelease: 1.0\n\n",
       "downloadURL": "https://github.com/the23aces/ipas/releases/download/1.0/eevee.ipa",
-      "size": 147227702
+      "size": 147227702,
+      "subtitle": "eevee.ipa"
     }
   ],
   "news": []

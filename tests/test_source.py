@@ -91,6 +91,31 @@ class SourceTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, 'Checksum mismatch'):
                 source.verify_asset(path, {'name': 'app.ipa', 'size': 4, 'digest': 'sha256:' + '0' * 64})
 
+    def test_feather_keeps_distinct_mod_assets_with_identical_bundle_version_build(self):
+        meta = {'name': 'Example', 'bundleIdentifier': 'org.example.App', 'version': '1.0', 'buildVersion': '5',
+                'appPermissions': {'entitlements': [], 'privacy': {}}}
+        records = [dict(metadata=meta, assetId=i, assetName=f'mod-{i}.ipa', releaseTag='v1',
+                        date='2026-10-12T00:00:00Z', downloadURL=f'https://example.org/mod-{i}.ipa',
+                        size=100 + i, description=f'Mod {i}') for i in range(4)]
+        config = {'releasesRepository': 'test/ipas', 'iconURL': 'https://example.org/icon.png',
+                  'assetNames': {'0': 'My first mod'}}
+        apps = [source.make_mod_app(record, config) for record in records]
+        feed = {'name': 'Test', 'identifier': 'org.test', 'apps': apps}
+        source.validate_source(feed, feather=True)
+        self.assertEqual(len(apps), 4)
+        self.assertEqual(apps[0]['name'], 'My first mod')
+        self.assertEqual(len({app['name'] for app in apps}), 4)
+        self.assertEqual(len({app['downloadURL'] for app in apps}), 4)
+        self.assertEqual({app['bundleIdentifier'] for app in apps}, {'org.example.App'})
+        self.assertEqual({app['versions'][0]['buildVersion'] for app in apps}, {'5'})
+        for app, record in zip(apps, records):
+            self.assertEqual(app['versions'][0]['downloadURL'], record['downloadURL'])
+        with self.assertRaisesRegex(ValueError, 'Duplicate app bundle ID'):
+            source.validate_source(feed)
+        feed['apps'].append(copy.deepcopy(apps[0]))
+        with self.assertRaisesRegex(ValueError, 'Duplicate mod download'):
+            source.validate_source(feed, feather=True)
+
     def test_generated_source_has_unique_app_identifiers(self):
         with self.assertRaisesRegex(ValueError, 'Duplicate app bundle ID'):
             source.validate_source({'name': 'Test', 'identifier': 'org.test', 'apps': [

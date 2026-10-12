@@ -8,10 +8,10 @@
   "website": "https://github.com/the23aces/ipas/releases",
   "apps": [
     {
-      "name": "Spotify",
+      "name": "spoti.pw 0.23.0 beta",
       "bundleIdentifier": "com.spotify.client",
       "developerName": "Published by the23aces",
-      "localizedDescription": "Spotify from the23aces/ipas releases.\nLatest file: spoti.pw-0.23.0-beta.ipa",
+      "localizedDescription": "Mod: spoti.pw 0.23.0 beta\nFile: spoti.pw-0.23.0-beta.ipa\nRelease: 1.0\n\nspoti.pw-0.23.0-beta.ipa\nRelease: 1.0\n\n",
       "iconURL": "https://avatars.githubusercontent.com/u/106442156?v=4",
       "versions": [
         {
@@ -69,7 +69,8 @@
       "versionDate": "2026-09-29T10:03:29Z",
       "versionDescription": "spoti.pw-0.23.0-beta.ipa\nRelease: 1.0\n\n",
       "downloadURL": "https://github.com/the23aces/ipas/releases/download/1.0/spoti.pw-0.23.0-beta.ipa",
-      "size": 138344242
+      "size": 138344242,
+      "subtitle": "spoti.pw-0.23.0-beta.ipa"
     }
   ],
   "news": []

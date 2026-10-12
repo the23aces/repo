@@ -7,5 +7,11 @@
   "subtitle": "IPAs from the23aces/ipas releases",
   "iconURL": "https://avatars.githubusercontent.com/u/106442156?v=4",
   "includePrereleases": false,
-  "apps": {}
+  "apps": {},
+  "assetNames": {
+    "597910497": "spoti.pw + EeveeSpotify (spoti.pw first)",
+    "597902410": "Eevee + spoti.pw (release 1.1)",
+    "597879342": "Eevee",
+    "597880655": "spoti.pw 0.23.0 beta"
+  }
 }

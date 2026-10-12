@@ -2,16 +2,16 @@
   "name": "23aces IPA Repo",
   "identifier": "io.github.the23aces.repo",
   "subtitle": "IPAs from the23aces/ipas releases",
-  "description": "Published IPA assets from GitHub Releases. Refreshed by GitHub Actions.",
+  "description": "Every published IPA mod listed separately for Feather, including mods sharing the same bundle ID and version.",
   "sourceURL": "https://raw.githubusercontent.com/the23aces/repo/main/source.json",
   "iconURL": "https://avatars.githubusercontent.com/u/106442156?v=4",
   "website": "https://github.com/the23aces/ipas/releases",
   "apps": [
     {
-      "name": "Spotify",
+      "name": "spoti.pw + EeveeSpotify (spoti.pw first)",
       "bundleIdentifier": "com.spotify.client",
       "developerName": "Published by the23aces",
-      "localizedDescription": "Spotify from the23aces/ipas releases.\nLatest file: spoti.pw-0.23.0-EeveeSpotify-6.6.8-9.1.86.ipa",
+      "localizedDescription": "Mod: spoti.pw + EeveeSpotify (spoti.pw first)\nFile: spoti.pw-0.23.0-EeveeSpotify-6.6.8-9.1.86.ipa\nRelease: 1.2\n\nspoti.pw-0.23.0-EeveeSpotify-6.6.8-9.1.86.ipa\nRelease: 1.2\n\nspoti.pw+eevee (spoti.pw first)",
       "iconURL": "https://avatars.githubusercontent.com/u/106442156?v=4",
       "versions": [
         {
@@ -70,7 +70,205 @@
       "versionDate": "2026-09-29T10:18:08Z",
       "versionDescription": "spoti.pw-0.23.0-EeveeSpotify-6.6.8-9.1.86.ipa\nRelease: 1.2\n\nspoti.pw+eevee (spoti.pw first)",
       "downloadURL": "https://github.com/the23aces/ipas/releases/download/1.2/spoti.pw-0.23.0-EeveeSpotify-6.6.8-9.1.86.ipa",
-      "size": 148958148
+      "size": 148958148,
+      "subtitle": "spoti.pw-0.23.0-EeveeSpotify-6.6.8-9.1.86.ipa"
+    },
+    {
+      "name": "Eevee + spoti.pw (release 1.1)",
+      "bundleIdentifier": "com.spotify.client",
+      "developerName": "Published by the23aces",
+      "localizedDescription": "Mod: Eevee + spoti.pw (release 1.1)\nFile: eevee-spoti.pw-0.23.0-beta.ipa\nRelease: 1.1\n\neevee-spoti.pw-0.23.0-beta.ipa\nRelease: 1.1\n\nhopefully eevee+spoti.pw",
+      "iconURL": "https://avatars.githubusercontent.com/u/106442156?v=4",
+      "versions": [
+        {
+          "version": "9.1.86",
+          "buildVersion": "918602428",
+          "date": "2026-09-29T10:14:24Z",
+          "downloadURL": "https://github.com/the23aces/ipas/releases/download/1.1/eevee-spoti.pw-0.23.0-beta.ipa",
+          "size": 147132499,
+          "localizedDescription": "eevee-spoti.pw-0.23.0-beta.ipa\nRelease: 1.1\n\nhopefully eevee+spoti.pw",
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.applesignin",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.carplay-audio",
+          "com.apple.developer.declared-age-range",
+          "com.apple.developer.game-center",
+          "com.apple.developer.group-session",
+          "com.apple.developer.healthkit",
+          "com.apple.developer.healthkit.access",
+          "com.apple.developer.networking.multicast",
+          "com.apple.developer.networking.wifi-info",
+          "com.apple.developer.siri",
+          "com.apple.developer.storekit.custom-purchase-link.allowed-regions",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.ubiquity-kvstore-identifier",
+          "com.apple.developer.usernotifications.communication",
+          "com.apple.security.application-groups",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSAppleMusicUsageDescription": "This will let you play your imported music on Spotify.",
+          "NSBluetoothAlwaysUsageDescription": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth.",
+          "NSCalendarsUsageDescription": "This lets Spotify view and add events to your calendar.",
+          "NSCalendarsWriteOnlyAccessUsageDescription": "This lets Spotify add events to your calendar.",
+          "NSCameraUsageDescription": "This lets you use your camera to scan or upload images.",
+          "NSContactsUsageDescription": "This lets Spotify access calendars you may have shared with your contacts.",
+          "NSFaceIDUsageDescription": "This lets you set access restrictions using Face ID.",
+          "NSHealthShareUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+          "NSHealthUpdateUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+          "NSLocalNetworkUsageDescription": "This lets you listen on different devices. Spotify will also get access to local audio files.",
+          "NSLocationWhenInUseUsageDescription": "Your location is used to improve your recommendations and experience on Spotify.",
+          "NSMicrophoneUsageDescription": "This lets you control Spotify using your voice.",
+          "NSMotionUsageDescription": "We will use this to understand which audio motivates you most.",
+          "NSPhotoLibraryAddUsageDescription": "This lets you save images to your Photo Library.",
+          "NSPhotoLibraryUsageDescription": "This lets you select images from your Photo Library.",
+          "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads or content to you."
+        }
+      },
+      "version": "9.1.86",
+      "versionDate": "2026-09-29T10:14:24Z",
+      "versionDescription": "eevee-spoti.pw-0.23.0-beta.ipa\nRelease: 1.1\n\nhopefully eevee+spoti.pw",
+      "downloadURL": "https://github.com/the23aces/ipas/releases/download/1.1/eevee-spoti.pw-0.23.0-beta.ipa",
+      "size": 147132499,
+      "subtitle": "eevee-spoti.pw-0.23.0-beta.ipa"
+    },
+    {
+      "name": "Eevee",
+      "bundleIdentifier": "com.spotify.client",
+      "developerName": "Published by the23aces",
+      "localizedDescription": "Mod: Eevee\nFile: eevee.ipa\nRelease: 1.0\n\neevee.ipa\nRelease: 1.0\n\n",
+      "iconURL": "https://avatars.githubusercontent.com/u/106442156?v=4",
+      "versions": [
+        {
+          "version": "9.1.86",
+          "buildVersion": "918602428",
+          "date": "2026-09-29T10:03:29Z",
+          "downloadURL": "https://github.com/the23aces/ipas/releases/download/1.0/eevee.ipa",
+          "size": 147227702,
+          "localizedDescription": "eevee.ipa\nRelease: 1.0\n\n",
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.applesignin",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.carplay-audio",
+          "com.apple.developer.declared-age-range",
+          "com.apple.developer.game-center",
+          "com.apple.developer.group-session",
+          "com.apple.developer.healthkit",
+          "com.apple.developer.healthkit.access",
+          "com.apple.developer.networking.multicast",
+          "com.apple.developer.networking.wifi-info",
+          "com.apple.developer.siri",
+          "com.apple.developer.storekit.custom-purchase-link.allowed-regions",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.ubiquity-kvstore-identifier",
+          "com.apple.developer.usernotifications.communication",
+          "com.apple.security.application-groups",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSAppleMusicUsageDescription": "This will let you play your imported music on Spotify.",
+          "NSBluetoothAlwaysUsageDescription": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth.",
+          "NSCalendarsUsageDescription": "This lets Spotify view and add events to your calendar.",
+          "NSCalendarsWriteOnlyAccessUsageDescription": "This lets Spotify add events to your calendar.",
+          "NSCameraUsageDescription": "This lets you use your camera to scan or upload images.",
+          "NSContactsUsageDescription": "This lets Spotify access calendars you may have shared with your contacts.",
+          "NSFaceIDUsageDescription": "This lets you set access restrictions using Face ID.",
+          "NSHealthShareUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+          "NSHealthUpdateUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+          "NSLocalNetworkUsageDescription": "This lets you listen on different devices. Spotify will also get access to local audio files.",
+          "NSLocationWhenInUseUsageDescription": "Your location is used to improve your recommendations and experience on Spotify.",
+          "NSMicrophoneUsageDescription": "This lets you control Spotify using your voice.",
+          "NSMotionUsageDescription": "We will use this to understand which audio motivates you most.",
+          "NSPhotoLibraryAddUsageDescription": "This lets you save images to your Photo Library.",
+          "NSPhotoLibraryUsageDescription": "This lets you select images from your Photo Library.",
+          "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads or content to you."
+        }
+      },
+      "version": "9.1.86",
+      "versionDate": "2026-09-29T10:03:29Z",
+      "versionDescription": "eevee.ipa\nRelease: 1.0\n\n",
+      "downloadURL": "https://github.com/the23aces/ipas/releases/download/1.0/eevee.ipa",
+      "size": 147227702,
+      "subtitle": "eevee.ipa"
+    },
+    {
+      "name": "spoti.pw 0.23.0 beta",
+      "bundleIdentifier": "com.spotify.client",
+      "developerName": "Published by the23aces",
+      "localizedDescription": "Mod: spoti.pw 0.23.0 beta\nFile: spoti.pw-0.23.0-beta.ipa\nRelease: 1.0\n\nspoti.pw-0.23.0-beta.ipa\nRelease: 1.0\n\n",
+      "iconURL": "https://avatars.githubusercontent.com/u/106442156?v=4",
+      "versions": [
+        {
+          "version": "9.1.86",
+          "buildVersion": "918602428",
+          "date": "2026-09-29T10:03:29Z",
+          "downloadURL": "https://github.com/the23aces/ipas/releases/download/1.0/spoti.pw-0.23.0-beta.ipa",
+          "size": 138344242,
+          "localizedDescription": "spoti.pw-0.23.0-beta.ipa\nRelease: 1.0\n\n",
+          "minOSVersion": "16.1"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.applesignin",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.carplay-audio",
+          "com.apple.developer.declared-age-range",
+          "com.apple.developer.game-center",
+          "com.apple.developer.group-session",
+          "com.apple.developer.healthkit",
+          "com.apple.developer.healthkit.access",
+          "com.apple.developer.networking.multicast",
+          "com.apple.developer.networking.wifi-info",
+          "com.apple.developer.siri",
+          "com.apple.developer.storekit.custom-purchase-link.allowed-regions",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.ubiquity-kvstore-identifier",
+          "com.apple.developer.usernotifications.communication",
+          "com.apple.security.application-groups",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSAppleMusicUsageDescription": "This will let you play your imported music on Spotify.",
+          "NSBluetoothAlwaysUsageDescription": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth.",
+          "NSCalendarsUsageDescription": "This lets Spotify view and add events to your calendar.",
+          "NSCalendarsWriteOnlyAccessUsageDescription": "This lets Spotify add events to your calendar.",
+          "NSCameraUsageDescription": "This lets you use your camera to scan or upload images.",
+          "NSContactsUsageDescription": "This lets Spotify access calendars you may have shared with your contacts.",
+          "NSFaceIDUsageDescription": "This lets you set access restrictions using Face ID.",
+          "NSHealthShareUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+          "NSHealthUpdateUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+          "NSLocalNetworkUsageDescription": "This lets you listen on different devices. Spotify will also get access to local audio files.",
+          "NSLocationWhenInUseUsageDescription": "Your location is used to improve your recommendations and experience on Spotify.",
+          "NSMicrophoneUsageDescription": "This lets you control Spotify using your voice.",
+          "NSMotionUsageDescription": "We will use this to understand which audio motivates you most.",
+          "NSPhotoLibraryAddUsageDescription": "This lets you save images to your Photo Library.",
+          "NSPhotoLibraryUsageDescription": "This lets you select images from your Photo Library.",
+          "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads or content to you."
+        }
+      },
+      "version": "9.1.86",
+      "versionDate": "2026-09-29T10:03:29Z",
+      "versionDescription": "spoti.pw-0.23.0-beta.ipa\nRelease: 1.0\n\n",
+      "downloadURL": "https://github.com/the23aces/ipas/releases/download/1.0/spoti.pw-0.23.0-beta.ipa",
+      "size": 138344242,
+      "subtitle": "spoti.pw-0.23.0-beta.ipa"
     }
   ],
   "news": []

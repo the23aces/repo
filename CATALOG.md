@@ -1,6 +1,6 @@
-# IPA variants
+# IPA mods
 
-The main source selects the newest published asset for each bundle ID and version/build. These individual sources let you select a specific IPA without changing its real app identity.
+The main Feather source lists every IPA below separately. These individual source links also let AltStore Classic / SideStore users choose a specific mod with its real app identity.
 
 | IPA | Release | Version (build) | Source | Download |
 | --- | --- | --- | --- | --- |

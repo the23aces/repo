@@ -233,8 +233,21 @@ def make_app(records, config):
     return app
 
 
-def make_source(config, apps, suffix="", title=None):
-    filename = f"sources/{suffix}.json" if suffix else "source.json"
+def make_mod_app(record, config):
+    """Each release asset is a separate mod, even with an identical bundle/version."""
+    app = make_app([record], config)
+    fallback = f"{Path(record['assetName']).stem} (release {record['releaseTag']})"
+    app["name"] = config.get("assetNames", {}).get(str(record["assetId"]), fallback)
+    app["subtitle"] = record["assetName"]
+    app["localizedDescription"] = (
+        f"Mod: {app['name']}\nFile: {record['assetName']}\n"
+        f"Release: {record['releaseTag']}\n\n{record['description']}"
+    )
+    return app
+
+
+def make_source(config, apps, suffix="", title=None, filename=None):
+    filename = filename or (f"sources/{suffix}.json" if suffix else "source.json")
     return {
         "name": title or config["name"], "identifier": config["identifier"] + ("." + suffix if suffix else ""),
         "subtitle": config["subtitle"], "description": "Published IPA assets from GitHub Releases. Refreshed by GitHub Actions.",
@@ -244,12 +257,17 @@ def make_source(config, apps, suffix="", title=None):
     }
 
 
-def validate_source(source):
+def validate_source(source, feather=False):
     require(source.get("name") and source.get("identifier"), "Missing source identity")
     ids = set()
     for app in source["apps"]:
-        require(app["bundleIdentifier"] not in ids, "Duplicate app bundle ID")
-        ids.add(app["bundleIdentifier"])
+        # Feather uses bundleIdentifier + top-level downloadURL as its UI/download ID.
+        # AltStore/SideStore require unique actual bundle IDs instead.
+        identity = (app["bundleIdentifier"], app.get("downloadURL")) if feather else app["bundleIdentifier"]
+        require(identity not in ids, "Duplicate mod download" if feather else "Duplicate app bundle ID")
+        ids.add(identity)
+        if feather:
+            require(app.get("downloadURL"), "Feather mod is missing its download identity")
         require(app["versions"], "App has no versions")
         seen = set()
         for version in app["versions"]:
@@ -295,18 +313,23 @@ def main():
     grouped = defaultdict(list)
     for record in records:
         grouped[record["metadata"]["bundleIdentifier"]].append(record)
-    apps = [make_app(group, config) for _, group in sorted(grouped.items())]
+    apps = [make_mod_app(record, config) for record in records]
     source = make_source(config, apps)
-    validate_source(source)
+    source["description"] = "Every published IPA mod listed separately for Feather, including mods sharing the same bundle ID and version."
+    validate_source(source, feather=True)
+    classic_apps = [make_app(group, config) for _, group in sorted(grouped.items())]
+    classic = make_source(config, classic_apps, "altstore", f"{config['name']} · AltStore / SideStore", "altstore.json")
+    validate_source(classic)
     variants = {}
     for record in records:
         key = str(record["assetId"])
-        variant = make_source(config, [make_app([record], config)], key, f"{config['name']} · {record['assetName']}")
+        variant = make_source(config, [make_mod_app(record, config)], key, f"{config['name']} · {record['assetName']}")
         validate_source(variant)
         variants[key] = variant
         record["sourceURL"] = variant["sourceURL"]
     # All downloads and validation finish before replacing any published data.
     write_json(ROOT / "source.json", source)
+    write_json(ROOT / "altstore.json", classic)
     for key, variant in variants.items():
         write_json(ROOT / "sources" / f"{key}.json", variant)
     for stale in (ROOT / "sources").glob("*.json"):
@@ -314,7 +337,7 @@ def main():
             stale.unlink()
     write_json(ROOT / "catalog.json", {"releasesRepository": repo, "assets": records})
     write_json(cache_path, {"schemaVersion": CACHE_VERSION, "assets": assets})
-    rows = ["# IPA variants", "", "The main source selects the newest published asset for each bundle ID and version/build. These individual sources let you select a specific IPA without changing its real app identity.", "", "| IPA | Release | Version (build) | Source | Download |", "| --- | --- | --- | --- | --- |"]
+    rows = ["# IPA mods", "", "The main Feather source lists every IPA below separately. These individual source links also let AltStore Classic / SideStore users choose a specific mod with its real app identity.", "", "| IPA | Release | Version (build) | Source | Download |", "| --- | --- | --- | --- | --- |"]
     for r in records:
         name = r["assetName"].replace("|", "&#124;").replace("[", "&#91;").replace("]", "&#93;").replace("\n", " ")
         tag = r["releaseTag"].replace("|", "&#124;").replace("\n", " ")
