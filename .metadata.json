@@ -1,6 +1,120 @@
 {
   "schemaVersion": 1,
   "assets": {
+    "633660869": {
+      "fingerprint": {
+        "id": 633660869,
+        "size": 135552777,
+        "updated_at": "2026-10-12T11:58:23Z",
+        "digest": "sha256:624fa1cf5c84918b765505944be674addd9908aca57b877ae1849f1c80eb2f5f",
+        "browser_download_url": "https://github.com/the23aces/ipas/releases/download/6.7/spoti.pw-0.51.0-9.1.90-beta.1.ipa"
+      },
+      "metadata": {
+        "name": "Spotify",
+        "bundleIdentifier": "com.spotify.client",
+        "version": "9.1.90",
+        "buildVersion": "919002269",
+        "minOSVersion": "16.1",
+        "appPermissions": {
+          "entitlements": [
+            "application-identifier",
+            "aps-environment",
+            "com.apple.developer.applesignin",
+            "com.apple.developer.associated-domains",
+            "com.apple.developer.carplay-audio",
+            "com.apple.developer.declared-age-range",
+            "com.apple.developer.game-center",
+            "com.apple.developer.group-session",
+            "com.apple.developer.healthkit",
+            "com.apple.developer.healthkit.access",
+            "com.apple.developer.networking.multicast",
+            "com.apple.developer.networking.wifi-info",
+            "com.apple.developer.siri",
+            "com.apple.developer.storekit.custom-purchase-link.allowed-regions",
+            "com.apple.developer.team-identifier",
+            "com.apple.developer.ubiquity-kvstore-identifier",
+            "com.apple.developer.usernotifications.communication",
+            "com.apple.security.application-groups",
+            "keychain-access-groups"
+          ],
+          "privacy": {
+            "NSAppleMusicUsageDescription": "This will let you play your imported music on Spotify.",
+            "NSBluetoothAlwaysUsageDescription": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth.",
+            "NSCalendarsUsageDescription": "This lets Spotify view and add events to your calendar.",
+            "NSCalendarsWriteOnlyAccessUsageDescription": "This lets Spotify add events to your calendar.",
+            "NSCameraUsageDescription": "This lets you use your camera to scan or upload images.",
+            "NSContactsUsageDescription": "This lets Spotify access calendars you may have shared with your contacts.",
+            "NSFaceIDUsageDescription": "This lets you set access restrictions using Face ID.",
+            "NSHealthShareUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+            "NSHealthUpdateUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+            "NSLocalNetworkUsageDescription": "This lets you listen on different devices. Spotify will also get access to local audio files.",
+            "NSLocationWhenInUseUsageDescription": "Your location is used to improve your recommendations and experience on Spotify.",
+            "NSMicrophoneUsageDescription": "This lets you control Spotify using your voice.",
+            "NSMotionUsageDescription": "We will use this to understand which audio motivates you most.",
+            "NSPhotoLibraryAddUsageDescription": "This lets you save images to your Photo Library.",
+            "NSPhotoLibraryUsageDescription": "This lets you select images from your Photo Library.",
+            "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads or content to you."
+          }
+        }
+      }
+    },
+    "633660025": {
+      "fingerprint": {
+        "id": 633660025,
+        "size": 130566984,
+        "updated_at": "2026-10-12T11:58:23Z",
+        "digest": "sha256:a227372798bab6f13acba0e5b8ab47ee987216a41108d4d57fda4726726d3f82",
+        "browser_download_url": "https://github.com/the23aces/ipas/releases/download/6.7/spoti.pw-0.50.0-9.1.78.ipa"
+      },
+      "metadata": {
+        "name": "Spotify",
+        "bundleIdentifier": "com.spotify.client",
+        "version": "9.1.78",
+        "buildVersion": "917802214",
+        "minOSVersion": "16.1",
+        "appPermissions": {
+          "entitlements": [
+            "application-identifier",
+            "aps-environment",
+            "com.apple.developer.applesignin",
+            "com.apple.developer.associated-domains",
+            "com.apple.developer.carplay-audio",
+            "com.apple.developer.declared-age-range",
+            "com.apple.developer.game-center",
+            "com.apple.developer.group-session",
+            "com.apple.developer.healthkit",
+            "com.apple.developer.healthkit.access",
+            "com.apple.developer.networking.multicast",
+            "com.apple.developer.networking.wifi-info",
+            "com.apple.developer.siri",
+            "com.apple.developer.storekit.custom-purchase-link.allowed-regions",
+            "com.apple.developer.team-identifier",
+            "com.apple.developer.ubiquity-kvstore-identifier",
+            "com.apple.developer.usernotifications.communication",
+            "com.apple.security.application-groups",
+            "keychain-access-groups"
+          ],
+          "privacy": {
+            "NSAppleMusicUsageDescription": "This will let you play your imported music on Spotify.",
+            "NSBluetoothAlwaysUsageDescription": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth.",
+            "NSCalendarsUsageDescription": "This lets Spotify view and add events to your calendar.",
+            "NSCalendarsWriteOnlyAccessUsageDescription": "This lets Spotify add events to your calendar.",
+            "NSCameraUsageDescription": "This lets you use your camera to scan or upload images.",
+            "NSContactsUsageDescription": "This lets Spotify access calendars you may have shared with your contacts.",
+            "NSFaceIDUsageDescription": "This lets you set access restrictions using Face ID.",
+            "NSHealthShareUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+            "NSHealthUpdateUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+            "NSLocalNetworkUsageDescription": "This lets you listen on different devices. Spotify will also get access to local audio files.",
+            "NSLocationWhenInUseUsageDescription": "Your location is used to improve your recommendations and experience on Spotify.",
+            "NSMicrophoneUsageDescription": "This lets you control Spotify using your voice.",
+            "NSMotionUsageDescription": "We will use this to understand which audio motivates you most.",
+            "NSPhotoLibraryAddUsageDescription": "This lets you save images to your Photo Library.",
+            "NSPhotoLibraryUsageDescription": "This lets you select images from your Photo Library.",
+            "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads or content to you."
+          }
+        }
+      }
+    },
     "597910497": {
       "fingerprint": {
         "id": 597910497,

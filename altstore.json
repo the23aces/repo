@@ -11,9 +11,27 @@
       "name": "Spotify",
       "bundleIdentifier": "com.spotify.client",
       "developerName": "Published by the23aces",
-      "localizedDescription": "Spotify from the23aces/ipas releases.\nLatest file: spoti.pw-0.23.0-EeveeSpotify-6.6.8-9.1.86.ipa",
+      "localizedDescription": "Spotify from the23aces/ipas releases.\nLatest file: spoti.pw-0.51.0-9.1.90-beta.1.ipa",
       "iconURL": "https://avatars.githubusercontent.com/u/106442156?v=4",
       "versions": [
+        {
+          "version": "9.1.90",
+          "buildVersion": "919002269",
+          "date": "2026-10-12T11:58:23Z",
+          "downloadURL": "https://github.com/the23aces/ipas/releases/download/6.7/spoti.pw-0.51.0-9.1.90-beta.1.ipa",
+          "size": 135552777,
+          "localizedDescription": "spoti.pw-0.51.0-9.1.90-beta.1.ipa\nRelease: 6.7\n\nerg",
+          "minOSVersion": "16.1"
+        },
+        {
+          "version": "9.1.78",
+          "buildVersion": "917802214",
+          "date": "2026-10-12T11:58:23Z",
+          "downloadURL": "https://github.com/the23aces/ipas/releases/download/6.7/spoti.pw-0.50.0-9.1.78.ipa",
+          "size": 130566984,
+          "localizedDescription": "spoti.pw-0.50.0-9.1.78.ipa\nRelease: 6.7\n\nerg",
+          "minOSVersion": "16.1"
+        },
         {
           "version": "9.1.86",
           "buildVersion": "918602428",
@@ -66,11 +84,11 @@
           "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads or content to you."
         }
       },
-      "version": "9.1.86",
-      "versionDate": "2026-09-29T10:18:08Z",
-      "versionDescription": "spoti.pw-0.23.0-EeveeSpotify-6.6.8-9.1.86.ipa\nRelease: 1.2\n\nspoti.pw+eevee (spoti.pw first)",
-      "downloadURL": "https://github.com/the23aces/ipas/releases/download/1.2/spoti.pw-0.23.0-EeveeSpotify-6.6.8-9.1.86.ipa",
-      "size": 148958148
+      "version": "9.1.90",
+      "versionDate": "2026-10-12T11:58:23Z",
+      "versionDescription": "spoti.pw-0.51.0-9.1.90-beta.1.ipa\nRelease: 6.7\n\nerg",
+      "downloadURL": "https://github.com/the23aces/ipas/releases/download/6.7/spoti.pw-0.51.0-9.1.90-beta.1.ipa",
+      "size": 135552777
     }
   ],
   "news": []
