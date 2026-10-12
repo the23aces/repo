@@ -1,7 +1,7 @@
 {
-  "name": "23aces IPA Repo",
+  "name": "Aces IPA Repo",
   "identifier": "io.github.the23aces.repo",
-  "subtitle": "IPAs from the23aces/ipas releases",
+  "subtitle": "All ipa files i use/will use",
   "description": "Every published IPA mod listed separately for Feather, including mods sharing the same bundle ID and version.",
   "sourceURL": "https://raw.githubusercontent.com/the23aces/repo/main/source.json",
   "iconURL": "https://avatars.githubusercontent.com/u/106442156?v=4",
